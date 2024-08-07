@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../assets"
+		},
+		{
+			"path": "../../components"
+		},
+		{
+			"path": "../../constants"
+		},
+		{
+			"path": "../../hooks"
+		},
+		{
+			"path": "../../node_modules"
+		},
+		{
+			"path": "../../scripts"
+		}
+	]
+}
