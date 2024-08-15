@@ -33,7 +33,7 @@ app.use(passport_1.session());
 // use passport library to check if user exists
 passport_1.use(new (require('passport-cas').Strategy)({
     ssoBaseURL: 'https://secure.its.yale.edu/cas',
-    serverBaseURL: 'http://localhost:3000'
+    serverBaseURL: 'http://192.168.1.87:3000'
 }, function (login, done) {
     const user = {login: login};
     return done(null, user);
@@ -70,7 +70,7 @@ const casLogin = function (
   
       req.session.messages = '';
       //TODO: redirect to the next screen, actually in the app
-      return res.redirect('/succes');
+      return res.redirect('loveyou://Home');
     });
   })(req, res, next);
 }
@@ -78,5 +78,5 @@ const casLogin = function (
 app.get('/cas', casLogin); 
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on http://192.168.1.87:${PORT}`);
 });
