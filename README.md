@@ -4,9 +4,9 @@
 2. in the VSCode terminal, type "cd auth", then "node CAS.js"
 
 (POSSIBLE EXTRA STEP cuz computer IP addresses are probably different)
-in any terminal, check your computer address with command "ifconfig | grep inet"
-look for a number of form 192.168.x.xx
-that's your address, so if it's different from the one in the CAS.js code (check lines 36 and 81), replace for personal use
+In any terminal, check your computer address with command "ifconfig | grep inet".
+Look for a number of form [192.168.x.xx],
+which should be your address. So, if it's different from the one in the CAS.js code (check lines 36 and 81), replace for personal use.
 
 3. then open browser (on either phone or computer, both should work hopefully) and type "[ip address]:3000/cas" into search bar
 4. ta-da yale cas authentication screen should pop up
