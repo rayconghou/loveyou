@@ -11,9 +11,12 @@ which should be your address. So, if it's different from the one in the CAS.js c
 3. then open browser (on either phone or computer, both should work hopefully) and type "[ip address]:3000/cas" into search bar
 4. ta-da yale cas authentication screen should pop up
 
-# Linking with XCode
+# Linking with XCode or Expo Go
 
 This step is responsible for previewing the Authentication process via Simulator iPhone or your own (first have to connect a cable with your computer to pair and then be able to build).
+
+
+--XCode--
 
 1. open XCode and create a New Project -- go to XCode -> File -> New -> Project
 2. pick any Product Name and Organization Identifier and make sure languages are all Swift and SwiftUI
@@ -26,8 +29,16 @@ This step is responsible for previewing the Authentication process via Simulator
 9. XCode -> Project -> Run
 10. the same cas authentication screen should pop up on your phone, via a localhost app on your phone titled as the XCode Project you chose
 
+--Expo Go--
+1. npm start
+2. press 'i' for iOS Simulator
 
+# Required React-Native Packages
 
+npm install react-native-dom
+npm install react-native-webview
+npm install @react-navigation/stack
+npm install @react-navigation/native
 
 
 # Welcome to your Expo app 👋
