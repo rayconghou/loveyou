@@ -35,10 +35,21 @@ This step is responsible for previewing the Authentication process via Simulator
 
 # Required React-Native Packages
 
-npm install react-native-dom
 npm install react-native-webview
 npm install @react-navigation/stack
 npm install @react-navigation/native
+
+npm install @react-navigation/native @react-navigation/native-stack
+npm install react-native-screens react-native-safe-area-context
+
+npm list @react-navigation/native @react-navigation/native-stack react-native-screens
+
+npm install react-native-safe-area-context@4.10.5
+npm install react-native-screens@3.31.1
+npm install jest-expo@~51.0.4
+
+
+
 
 
 # Welcome to your Expo app 👋
